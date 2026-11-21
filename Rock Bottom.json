@@ -1,0 +1,4120 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 287,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "initialGDVersion": "5.6.287",
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "fafb381f-2f13-4fa3-aa4d-730cad348448",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Rock Bottom",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Caveat-VariableFont_wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "7b48cdc9b4ec3df9cc65a6f37a42875d612b5e9140a7f3137d1436df24a2fb73_Caveat-VariableFont_wght.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/7b48cdc9b4ec3df9cc65a6f37a42875d612b5e9140a7f3137d1436df24a2fb73_Caveat-VariableFont_wght.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/CaesarDressing-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/JotiOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 43,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 16,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 27,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3673257545058823,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "Deliveries",
+          "persistentUuid": "474f5381-f655-45da-885c-36c14ec78183",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TimeLeft",
+          "persistentUuid": "c0bd5331-d292-479b-ac54-ff3590ab94ad",
+          "type": "number",
+          "value": 20
+        },
+        {
+          "name": "Shots",
+          "persistentUuid": "90bc1fbb-22cf-478f-b117-7a983e7a1461",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player",
+          "persistentUuid": "747a1225-a6f9-4571-aaa4-ead7ac77f92c",
+          "width": 77,
+          "x": 89,
+          "y": 547,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DeliveryZone",
+          "persistentUuid": "081943e5-c161-48ed-b15b-e3c2232eb8d2",
+          "width": 0,
+          "x": 536,
+          "y": 134,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DeliveryText",
+          "persistentUuid": "f62536dd-0c13-422c-a4ad-e6d0293f754c",
+          "width": 0,
+          "x": 435,
+          "y": 70,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CounterText",
+          "persistentUuid": "2ae0f5ee-e284-4850-9343-b50c69c6d719",
+          "width": 0,
+          "x": 33,
+          "y": 33,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DeliveryZone",
+          "persistentUuid": "d15045a6-3ed9-415c-8732-507dc944b741",
+          "width": 0,
+          "x": 998,
+          "y": 137,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DeliveryZone",
+          "persistentUuid": "ecf5b531-a235-4f64-b106-a0b70452c2be",
+          "width": 0,
+          "x": 866,
+          "y": 414,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WinText",
+          "persistentUuid": "3acb8134-766d-474e-8e60-02eb1a1cb548",
+          "width": 0,
+          "x": 503,
+          "y": 345,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 261,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Obstacle",
+          "persistentUuid": "1c17e0b9-6156-4730-873d-82e68e639442",
+          "width": 48,
+          "x": 594,
+          "y": 277,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 394,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Obstacle",
+          "persistentUuid": "a23a4df8-d0aa-4878-820b-ebda9f9033e6",
+          "width": 48,
+          "x": 784,
+          "y": 23,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 475,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Obstacle",
+          "persistentUuid": "4c5630dd-6e8b-4062-b964-497f93a5fbdf",
+          "width": 48,
+          "x": 344,
+          "y": 55,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "Obstacle",
+          "persistentUuid": "28c3d0f2-d24c-41ac-bcce-a624760e23b3",
+          "width": 1280,
+          "x": 0,
+          "y": -40,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "Obstacle",
+          "persistentUuid": "5a7b4324-2528-4cf9-ab83-a08245bf3d1f",
+          "width": 1280,
+          "x": 3,
+          "y": 719,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "Obstacle",
+          "persistentUuid": "19414f67-9497-4cd6-8450-743da9719d1e",
+          "width": 40,
+          "x": -40,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "Obstacle",
+          "persistentUuid": "03c6a1b4-cdcf-45fe-bdf9-94274ea920e9",
+          "width": 40,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TimerText",
+          "persistentUuid": "3cc9b7f1-0897-4902-86a2-6595435cc16b",
+          "width": 0,
+          "x": 1113,
+          "y": 33,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LoseText",
+          "persistentUuid": "eb8122bf-439a-4d4a-80fe-93bb2c1b4e9b",
+          "width": 0,
+          "x": 494,
+          "y": 351,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RestartText",
+          "persistentUuid": "a56e6b8d-4ef1-4658-a7ac-b5a631b2baaa",
+          "width": 0,
+          "x": 493,
+          "y": 491,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 147,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AimArrow",
+          "persistentUuid": "98b01c54-d59e-4667-803e-dc68b7be022f",
+          "width": 124,
+          "x": 372,
+          "y": 288,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ControlsText",
+          "persistentUuid": "872f6280-2edb-4504-8e02-a7a0b52a1f9e",
+          "width": 0,
+          "x": 380,
+          "y": 689,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ShotsText",
+          "persistentUuid": "76f7160d-ad2e-43be-b589-171a79c484e7",
+          "width": 0,
+          "x": 573,
+          "y": 33,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RatingText",
+          "persistentUuid": "4882743b-c4f7-4ad0-8fa6-d5184cd4e668",
+          "width": 0,
+          "x": 579,
+          "y": 438,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "player",
+          "persistentUuid": "760e2297-fab5-4a87-a474-5254aaf7503a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "RecoilSpeed",
+              "persistentUuid": "95137cde-7746-4d73-aeb4-b447f9bc9ac5",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "RecoilAngle",
+              "persistentUuid": "af77af03-6bf1-4756-b935-49ea1afcc655",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "DeliveryZone",
+          "persistentUuid": "13eb0074-d62c-41ea-9f7d-31dca3e796c1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 80
+                          },
+                          {
+                            "x": 0,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "DeliveryText",
+          "persistentUuid": "11d59111-c16f-477c-bc83-90b7bca9ff90",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "DELIVERY COMPLETE!",
+          "font": "7b48cdc9b4ec3df9cc65a6f37a42875d612b5e9140a7f3137d1436df24a2fb73_Caveat-VariableFont_wght.ttf",
+          "textAlignment": "left",
+          "characterSize": 48,
+          "color": {
+            "b": 136,
+            "g": 255,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "DELIVERY COMPLETE!",
+            "font": "7b48cdc9b4ec3df9cc65a6f37a42875d612b5e9140a7f3137d1436df24a2fb73_Caveat-VariableFont_wght.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 48,
+            "lineHeight": 0,
+            "color": "0;255;136"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "CounterText",
+          "persistentUuid": "9136ed28-fa05-4f2b-80b1-199818828ac8",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "DELIVERIES: 0/3",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 32,
+          "color": {
+            "b": 128,
+            "g": 222,
+            "r": 74
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "DELIVERIES: 0/3",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "74;222;128"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "WinText",
+          "persistentUuid": "ff0a078d-bb7c-462b-8aec-293a1ef48f09",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "YOU WIN!",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 80,
+          "color": {
+            "b": 136,
+            "g": 255,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "YOU WIN!",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 80,
+            "lineHeight": 0,
+            "color": "0;255;136"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Obstacle",
+          "persistentUuid": "f9d7d6f2-f882-4287-9a41-ce8ebdb4be25",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 120
+                          },
+                          {
+                            "x": 0,
+                            "y": 120
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TimerText",
+          "persistentUuid": "99f7b862-2a40-4563-a6b7-58a932aa4777",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "TIME: 20",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 32,
+          "color": {
+            "b": 21,
+            "g": 204,
+            "r": 250
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "TIME: 20",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "250;204;21"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "LoseText",
+          "persistentUuid": "0cb20535-b29e-4366-ace9-2b33e39a6093",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "TIME'S UP!",
+          "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 64,
+          "color": {
+            "b": 3,
+            "g": 3,
+            "r": 233
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "TIME'S UP!",
+            "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 64,
+            "lineHeight": 0,
+            "color": "233;3;3"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RestartText",
+          "persistentUuid": "f05b647e-af8b-43ff-9279-004ff5028df0",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "PRESS R TO RESTART",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 28,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "PRESS R TO RESTART",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 28,
+            "lineHeight": 0,
+            "color": "248;231;28"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AimArrow",
+          "persistentUuid": "6f8af9f7-a9f7-4dee-975d-fe92d542beeb",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 0,
+                          "y": 0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 28.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 22
+                          },
+                          {
+                            "x": 54,
+                            "y": 22
+                          },
+                          {
+                            "x": 54,
+                            "y": 35
+                          },
+                          {
+                            "x": 12,
+                            "y": 35
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "ControlsText",
+          "persistentUuid": "09383c71-e224-48fc-9d0f-9762e7cfa175",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "LEFT CLICK TO LAUNCH AWAY FROM CURSOR",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "LEFT CLICK TO LAUNCH AWAY FROM CURSOR",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 24,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ShotsText",
+          "persistentUuid": "09ebf385-8cd8-46b5-a619-28e0a841a225",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "SHOTS: 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 28,
+          "color": {
+            "b": 255,
+            "g": 172,
+            "r": 97
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "SHOTS: 0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 28,
+            "lineHeight": 0,
+            "color": "97;172;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RatingText",
+          "persistentUuid": "7d8a6569-629d-44c6-beb9-aa7565b50636",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "RATING",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 36,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "RATING",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 36,
+            "lineHeight": 0,
+            "color": "248;231;28"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "player"
+          },
+          {
+            "objectName": "DeliveryZone"
+          },
+          {
+            "objectName": "WinText"
+          },
+          {
+            "objectName": "TimerText"
+          },
+          {
+            "objectName": "DeliveryText"
+          },
+          {
+            "objectName": "CounterText"
+          },
+          {
+            "objectName": "Obstacle"
+          },
+          {
+            "objectName": "ShotsText"
+          },
+          {
+            "objectName": "RatingText"
+          },
+          {
+            "objectName": "LoseText"
+          },
+          {
+            "objectName": "RestartText"
+          },
+          {
+            "objectName": "AimArrow"
+          },
+          {
+            "objectName": "ControlsText"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "DeliveryText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "WinText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "LoseText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "RestartText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "RatingText"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(TimeLeft)",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Deliveries)",
+                "<",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "player",
+                "RecoilAngle",
+                "=",
+                "AngleBetweenPositions(player.CenterX(), player.CenterY(), MouseX(), MouseY()) + 180"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "player",
+                "RecoilSpeed",
+                "=",
+                "650"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Shots",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "player",
+                "player.Variable(RecoilAngle)",
+                "player.Variable(RecoilSpeed)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "player",
+                "RecoilSpeed",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "player",
+                "RecoilSpeed",
+                "-",
+                "900 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "player",
+                "RecoilSpeed",
+                "<",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "player",
+                "RecoilSpeed",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "DeliveryZone",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(TimeLeft)",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "DeliveryText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Deliveries",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "DeliveryZone",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "CounterText",
+                "Text",
+                "=",
+                "\"DELIVERIES: \" + ToString(Variable(Deliveries)) + \"/3\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Deliveries",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "WinText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "RestartText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "RatingText",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "Obstacle",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "player",
+                "Obstacle",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"r\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(TimeLeft)",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Deliveries)",
+                "<",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TimeLeft",
+                "-",
+                "TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TimerText",
+                "Text",
+                "=",
+                "\"TIME: \" + ToString(max(0, ceil(Variable(TimeLeft))))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(TimeLeft)",
+                "<=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Deliveries)",
+                "<",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "LoseText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "RestartText",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "AimArrow",
+                "=",
+                "player.CenterX() + 25"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "AimArrow",
+                "=",
+                "player.CenterY() - AimArrow.Height()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "AimArrow",
+                "=",
+                "AngleBetweenPositions(player.CenterX(), player.CenterY(), MouseX(), MouseY()) + 180"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ShotsText",
+                "Text",
+                "=",
+                "\"SHOTS: \" + ToString(Variable(Shots))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Deliveries)",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Shots)",
+                "<=",
+                "8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "RatingText",
+                "Text",
+                "=",
+                "\"⭐⭐⭐\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Deliveries)",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Shots)",
+                ">",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Shots)",
+                "<=",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "RatingText",
+                "Text",
+                "=",
+                "\"⭐⭐\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Deliveries)",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(Shots)",
+                ">",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "RatingText",
+                "Text",
+                "=",
+                "\"⭐\""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    }
+  ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Untitled scene"
+      }
+    ]
+  },
+  "externalEvents": [],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "eventsFunctionsExtensions": [
+    {
+      "author": "VegeTato, Tristan Rhodes (https://victrisgames.itch.io/)",
+      "category": "Movement",
+      "dimension": "2D",
+      "extensionNamespace": "",
+      "fullName": "Make objects orbit around a center object",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBkPSJNMTYsOWMtMy45LDAtNywzLjEtNyw3czMuMSw3LDcsN3M3LTMuMSw3LTdTMTkuOSw5LDE2LDl6Ii8+DQoJPHBhdGggZD0iTTI3LjcsOC4zQzI3LjksNy45LDI4LDcuNSwyOCw3YzAtMS43LTEuMy0zLTMtM2MtMC41LDAtMC45LDAuMS0xLjMsMC4zQzIxLjQsMi44LDE4LjgsMiwxNiwyQzguMywyLDIsOC4zLDIsMTYNCgkJczYuMywxNCwxNCwxNHMxNC02LjMsMTQtMTRDMzAsMTMuMiwyOS4yLDEwLjYsMjcuNyw4LjN6IE0xNiwyOEM5LjQsMjgsNCwyMi42LDQsMTZTOS40LDQsMTYsNGMyLjIsMCw0LjQsMC42LDYuMywxLjgNCgkJQzIyLjEsNi4xLDIyLDYuNiwyMiw3YzAsMS43LDEuMywzLDMsM2MwLjQsMCwwLjktMC4xLDEuMi0wLjNjMS4yLDEuOSwxLjgsNCwxLjgsNi4zQzI4LDIyLjYsMjIuNiwyOCwxNiwyOHoiLz4NCjwvZz4NCjwvc3ZnPg0K",
+      "name": "OrbitingObjects",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_earth_moon_orbit.svg",
+      "shortDescription": "Make objects orbit around a center object in a circular or elliptical path.",
+      "version": "0.8.0",
+      "description": [
+        "Run the actions on every frame to make the orbiting objects move.",
+        "The extension will automatically create/delete orbiting objects to match the quantity specified. ",
+        "Use the delete function or set the quantity to 0 to remove all orbiting objects.",
+        "",
+        "The *elliptical orbit* action can be used to create a 3D effect by changing the z-order of orbiting objects.",
+        "",
+        "The customizable parameters include:",
+        "- Center object",
+        "- Orbiting object (must be different than the Center object)",
+        "- Quantity of orbiting objects",
+        "- Distance from the center object",
+        "- Speed of the orbiting objects (in degrees per second).  Use negative numbers to orbit counter-clockwise.",
+        "- Speed to rotate each orbiting object (in degrees per second).  Use negative numbers to rotate counter-clockwise.",
+        "",
+        "Example uses:",
+        "- Make shield objects around the player to protect from enemies",
+        "- Weapons that can damage enemies when they collide",
+        "- A visual indicator of ammo quantity or health points",
+        "- Interesting animations of stacked objects that can function as a single entity ",
+        "- Visual cue for an active character power-up, such as invincibility",
+        "",
+        "An example shows how to use this extension ([open the project online](https://editor.gdevelop.io/?project=example://orbiting-objects))."
+      ],
+      "origin": {
+        "identifier": "OrbitingObjects",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "orbit",
+        "rotate",
+        "player",
+        "shield",
+        "angle",
+        "ammo",
+        "health"
+      ],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "IRIhkkTTl2UHhfjrLTTH5GYwkYu1",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Move objects in orbit around a center object.",
+          "fullName": "Move objects in orbit around a center object",
+          "functionType": "Action",
+          "name": "AnimateOrbitingObjects",
+          "private": true,
+          "sentence": "Animate _PARAM3_ copies of _PARAM2_ that orbit around _PARAM1_ at a distance of _PARAM5_ with orbit speed of _PARAM4_ degrees per second. Rotate orbiting objects at _PARAM6_ degrees per second.  Start objects with an angle offset of _PARAM9_ degrees.  Create objects on layer _PARAM7_ with Z value _PARAM8_.  Reset locations of orbiting objects after quantity is reduced: _PARAM10_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ResetObjectsAfterDeletion",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OrbitingObjects::AnimateEllipticalOrbitingObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "CenterObject",
+                    "OrbitingObject",
+                    "OrbitQuantity",
+                    "OrbitSpeed",
+                    "OrbitDistance",
+                    "ObjectRotationSpeed",
+                    "StartingOffset",
+                    "",
+                    "OrbitDistance",
+                    "\"None\"",
+                    "OrbitZvalue",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ResetObjectsAfterDeletion",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OrbitingObjects::AnimateEllipticalOrbitingObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "CenterObject",
+                    "OrbitingObject",
+                    "OrbitQuantity",
+                    "OrbitSpeed",
+                    "OrbitDistance",
+                    "ObjectRotationSpeed",
+                    "StartingOffset",
+                    "yes",
+                    "OrbitDistance",
+                    "\"None\"",
+                    "OrbitZvalue",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Center object",
+              "name": "CenterObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Orbiting object",
+              "longDescription": "Cannot be the same object used for the Center object",
+              "name": "OrbitingObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Quantity of orbiting objects",
+              "name": "OrbitQuantity",
+              "type": "expression"
+            },
+            {
+              "description": "Orbit speed (in degrees per second)",
+              "longDescription": "Use negative numbers to orbit counter-clockwise",
+              "name": "OrbitSpeed",
+              "type": "expression"
+            },
+            {
+              "description": "Distance from the center object (in pixels)",
+              "name": "OrbitDistance",
+              "type": "expression"
+            },
+            {
+              "description": "Angular speed (in degrees per second)",
+              "longDescription": "Use negative numbers to rotate counter-clockwise",
+              "name": "ObjectRotationSpeed",
+              "type": "expression"
+            },
+            {
+              "description": "Layer that orbiting objects will be created on (base layer if empty)",
+              "name": "OrbitLayer",
+              "type": "layer"
+            },
+            {
+              "description": "Z order of orbiting objects",
+              "name": "OrbitZvalue",
+              "type": "expression"
+            },
+            {
+              "description": "Starting angle offset (in degrees)",
+              "name": "StartingOffset",
+              "type": "expression"
+            },
+            {
+              "description": "Reset locations of orbiting objects after quantity is reduced",
+              "name": "ResetObjectsAfterDeletion",
+              "type": "yesorno"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Delete orbiting objects that are linked to a center object.",
+          "fullName": "Delete orbiting objects that are linked to a center object",
+          "functionType": "Action",
+          "name": "DeleteOrbitingObjects",
+          "private": true,
+          "sentence": "Delete all _PARAM2_ that are linked to _PARAM1_",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Delete objects",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Delete orbiting objects"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "OrbitingObject",
+                        "CenterObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "OrbitingObject",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Center object",
+              "name": "CenterObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Orbiting object",
+              "longDescription": "Cannot be the same object that was used for the Center object",
+              "name": "OrbitingObject",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Move objects in elliptical orbit around a center object. Z-order is changed to make 3D effect.",
+          "fullName": "Move objects in elliptical orbit around a center object",
+          "functionType": "Action",
+          "name": "AnimateEllipticalOrbitingObjects",
+          "private": true,
+          "sentence": "Animate _PARAM3_ copies of _PARAM2_ in elliptical orbit around _PARAM1_ with vertical radius of _PARAM5_, horizontal radius of _PARAM9_ and an orbit speed of _PARAM4_ degrees per second. Foreground side is _PARAM10_. Rotate orbiting objects at _PARAM6_ degrees per second. Initial Z-Order: _PARAM11_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "CenterObject",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Count the number of linked objects (always)",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Note: Use the Action (instead of a Condition) for \"Take into account\" to make the action run even when there are no linked objects"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "OrbitingObject",
+                            "CenterObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "CenterObject",
+                            "LinkedObjectQuantity",
+                            "=",
+                            "Count(OrbitingObject)"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Create orbiting objects (if needed)",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "CenterObject",
+                            "LinkedObjectQuantity",
+                            "<",
+                            "OrbitQuantity"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "infiniteLoopWarning": true,
+                          "type": "BuiltinCommonInstructions::While",
+                          "whileConditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "CenterObject",
+                                "LinkedObjectQuantity",
+                                "<",
+                                "OrbitQuantity"
+                              ]
+                            }
+                          ],
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Create orbiting objects and link them to the center object"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "OrbitingObject",
+                                    "CenterObject.X()",
+                                    "CenterObject.Y()",
+                                    "CenterObject.Layer()"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetZOrder"
+                                  },
+                                  "parameters": [
+                                    "OrbitingObject",
+                                    "=",
+                                    "OrbitZvalue"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "LinkedObjects::LinkObjects"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "OrbitingObject",
+                                    "CenterObject"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "CenterObject",
+                                    "LinkedObjectQuantity",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Reassign OrbitOrder"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "LinkedObjects::PickObjectsLinkedTo"
+                              },
+                              "parameters": [
+                                "",
+                                "OrbitingObject",
+                                "CenterObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "OrderCounter",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "OrbitingObject",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "OrbitingObject",
+                                    "OrbitOrder",
+                                    "=",
+                                    "OrderCounter"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "OrderCounter",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Match the angle used by the rest of the orbiting objects"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetAngle"
+                                      },
+                                      "parameters": [
+                                        "OrbitingObject",
+                                        "=",
+                                        "CenterObject.Variable(OrbitingObjects.RotationAngle)"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Spread out orbiting objects evenly"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "OrbitingObject",
+                                        "OrbitAngle",
+                                        "=",
+                                        "OrbitingObject.Variable(OrbitOrder) * 360 / OrbitQuantity + StartingOffset"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "variables": [
+                            {
+                              "name": "OrderCounter",
+                              "type": "number",
+                              "value": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Delete orbiting objects (if needed)",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "CenterObject",
+                            "LinkedObjectQuantity",
+                            ">",
+                            "OrbitQuantity"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "LinkedObjects::PickObjectsLinkedTo"
+                              },
+                              "parameters": [
+                                "",
+                                "OrbitingObject",
+                                "CenterObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "OrbitingObject",
+                                "OrbitOrder",
+                                ">",
+                                "OrbitQuantity"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "OrbitingObject",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Spread out orbiting objects evenly"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "ResetObjectsAfterDeletion",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "OrbitingObject",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "OrbitingObject",
+                                    "OrbitAngle",
+                                    "=",
+                                    "OrbitingObject.Variable(OrbitOrder) * 360 / OrbitQuantity + StartingOffset"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Move orbiting objects (always)",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "OrbitingObject",
+                            "CenterObject"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "OrbitingObject",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Calculate new angle for this frame"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "OrbitingObject",
+                                    "OrbitAngle",
+                                    "=",
+                                    "mod(OrbitingObject.Variable(OrbitAngle) + OrbitSpeed * TimeDelta(), 360)"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Move object to new angle"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetCenter"
+                                  },
+                                  "parameters": [
+                                    "OrbitingObject",
+                                    "=",
+                                    "CenterObject.BoundingBoxCenterX() + XFromAngleAndDistance(OrbitingObject.Variable(OrbitAngle), HorizontalDistance)",
+                                    "=",
+                                    "CenterObject.BoundingBoxCenterY() + YFromAngleAndDistance(OrbitingObject.Variable(OrbitAngle), VerticalDistance)"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Change angle of rotating objects"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Rotate"
+                                  },
+                                  "parameters": [
+                                    "OrbitingObject",
+                                    "ObjectRotationSpeed",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Save the current angle so it can be used for new orbiting objects"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "CenterObject",
+                                    "OrbitingObjects.RotationAngle",
+                                    "=",
+                                    "OrbitingObject.Angle()"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Update Z order as it moves around the orbit",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Foreground = Bottom (Default)"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Or"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "StringVariable"
+                                          },
+                                          "parameters": [
+                                            "ForegroundSide",
+                                            "=",
+                                            "\"\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "StringVariable"
+                                          },
+                                          "parameters": [
+                                            "ForegroundSide",
+                                            "=",
+                                            "\"Bottom\""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetZOrder"
+                                      },
+                                      "parameters": [
+                                        "OrbitingObject",
+                                        "=",
+                                        "CenterObject.ZOrder() + OrbitingObject.CenterY() - CenterObject.CenterY()"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Foreground = Top"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "StringVariable"
+                                      },
+                                      "parameters": [
+                                        "ForegroundSide",
+                                        "=",
+                                        "\"Top\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetZOrder"
+                                      },
+                                      "parameters": [
+                                        "OrbitingObject",
+                                        "=",
+                                        "CenterObject.ZOrder() + CenterObject.CenterY() - OrbitingObject.CenterY()"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Foreground = Left"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "StringVariable"
+                                      },
+                                      "parameters": [
+                                        "ForegroundSide",
+                                        "=",
+                                        "\"Left\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetZOrder"
+                                      },
+                                      "parameters": [
+                                        "OrbitingObject",
+                                        "=",
+                                        "CenterObject.ZOrder() + CenterObject.CenterX() - OrbitingObject.CenterX()"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Foreground = Right"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "StringVariable"
+                                      },
+                                      "parameters": [
+                                        "ForegroundSide",
+                                        "=",
+                                        "\"Right\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetZOrder"
+                                      },
+                                      "parameters": [
+                                        "OrbitingObject",
+                                        "=",
+                                        "CenterObject.ZOrder() + OrbitingObject.CenterX() - CenterObject.CenterX()"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Center object",
+              "name": "CenterObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Orbiting object",
+              "longDescription": "Cannot be the same object used for the Center object",
+              "name": "OrbitingObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Quantity of orbiting objects",
+              "name": "OrbitQuantity",
+              "type": "expression"
+            },
+            {
+              "description": "Orbit speed (in degrees per second)",
+              "longDescription": "Use negative numbers to orbit counter-clockwise",
+              "name": "OrbitSpeed",
+              "type": "expression"
+            },
+            {
+              "description": "Vertical distance from the center object (pixels)",
+              "name": "VerticalDistance",
+              "type": "expression"
+            },
+            {
+              "description": "Angular speed (in degrees per second)",
+              "longDescription": "Use negative numbers to rotate counter-clockwise",
+              "name": "ObjectRotationSpeed",
+              "type": "expression"
+            },
+            {
+              "description": "Starting angle offset (in degrees)",
+              "name": "StartingOffset",
+              "type": "expression"
+            },
+            {
+              "description": "Reset locations of orbiting objects after quantity is reduced",
+              "name": "ResetObjectsAfterDeletion",
+              "type": "yesorno"
+            },
+            {
+              "description": "Horizontal distance from the center object (pixels)",
+              "name": "HorizontalDistance",
+              "type": "expression"
+            },
+            {
+              "description": "Foreground Side",
+              "name": "ForegroundSide",
+              "supplementaryInformation": "[\"Top\",\"Bottom\",\"Left\",\"Right\"]",
+              "type": "stringWithSelector"
+            },
+            {
+              "description": "Z order of orbiting objects",
+              "name": "OrbitZvalue",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "AnimateOrbitingObjects"
+          },
+          {
+            "functionName": "AnimateEllipticalOrbitingObjects"
+          },
+          {
+            "functionName": "DeleteOrbitingObjects"
+          }
+        ]
+      },
+      "eventsBasedBehaviors": [
+        {
+          "description": "Make objects orbit around itself in a circular path.",
+          "fullName": "Orbiting object emitter",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "OrbitingObjectEmitter",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "description": "Move objects in elliptical orbit around a center object. Z-order is changed to make 3D effect.",
+              "fullName": "Animate orbiting objects",
+              "functionType": "Action",
+              "name": "AnimateOrbitingObjects",
+              "sentence": "Animate copies of _PARAM2_ in elliptical orbit around _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "ShouldFillGap",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OrbitingObjects::AnimateEllipticalOrbitingObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Object",
+                        "OrbitingObject",
+                        "Quantity",
+                        "OrbitAngularSpeed",
+                        "RadiusY",
+                        "SpiningSpeed",
+                        "StartingOffset",
+                        "no",
+                        "RadiusX",
+                        "Object.Behavior::ForegroundSide()",
+                        "Object.ZOrder() + ZOrderOffset",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "ShouldFillGap",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OrbitingObjects::AnimateEllipticalOrbitingObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Object",
+                        "OrbitingObject",
+                        "Quantity",
+                        "OrbitAngularSpeed",
+                        "RadiusY",
+                        "SpiningSpeed",
+                        "StartingOffset",
+                        "yes",
+                        "RadiusX",
+                        "Object.Behavior::ForegroundSide()",
+                        "Object.ZOrder() + ZOrderOffset",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Orbiting object",
+                  "longDescription": "Cannot be the same object used for the Center object",
+                  "name": "OrbitingObject",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the orbit radius on X axis of the object.",
+              "fullName": "Orbit radius on X axis",
+              "functionType": "ExpressionAndCondition",
+              "group": "Orbiting object emitter configuration",
+              "name": "RadiusX",
+              "sentence": "the orbit radius on X axis",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "RadiusX"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "RadiusX",
+              "group": "Orbiting object emitter configuration",
+              "name": "SetRadiusX",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RadiusX",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the orbit radius on Y axis of the object. Use a negative value to change which part is in front.",
+              "fullName": "Orbit radius on Y axis",
+              "functionType": "ExpressionAndCondition",
+              "group": "Orbiting object emitter configuration",
+              "name": "RadiusY",
+              "sentence": "the orbit radius on Y axis",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "RadiusY"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "RadiusY",
+              "group": "Orbiting object emitter configuration",
+              "name": "SetRadiusY",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RadiusY",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Foreground side",
+              "functionType": "StringExpression",
+              "name": "ForegroundSide",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ZOrderOffset",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnString"
+                      },
+                      "parameters": [
+                        "\"Value\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(RadiusX)",
+                            ">=",
+                            "abs(RadiusY)"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "RadiusY",
+                                ">=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetReturnString"
+                              },
+                              "parameters": [
+                                "\"Bottom\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Else",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetReturnString"
+                              },
+                              "parameters": [
+                                "\"Top\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "RadiusX",
+                                ">=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetReturnString"
+                              },
+                              "parameters": [
+                                "\"Right\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Else",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetReturnString"
+                              },
+                              "parameters": [
+                                "\"Left\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "string"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the quantity of orbiting objects of the object.",
+              "fullName": "Quantity of orbiting objects",
+              "functionType": "ExpressionAndCondition",
+              "group": "Orbiting object emitter configuration",
+              "name": "Quantity",
+              "sentence": "the quantity of orbiting objects",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Quantity"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Quantity",
+              "group": "Orbiting object emitter configuration",
+              "name": "SetQuantity",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Quantity",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the orbit speed of the object. Use a negative value to orbit counter-clockwise.",
+              "fullName": "Orbit speed",
+              "functionType": "ExpressionAndCondition",
+              "group": "Orbiting object emitter configuration",
+              "name": "OrbitAngularSpeed",
+              "sentence": "the orbit speed",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "OrbitAngularSpeed"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "OrbitAngularSpeed",
+              "group": "Orbiting object emitter configuration",
+              "name": "SetOrbitAngularSpeed",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "OrbitAngularSpeed",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the spining speed of the object.",
+              "fullName": "Spining speed",
+              "functionType": "ExpressionAndCondition",
+              "group": "Orbiting object emitter configuration",
+              "name": "SpiningSpeed",
+              "sentence": "the spining speed",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "SpiningSpeed"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "SpiningSpeed",
+              "group": "Orbiting object emitter configuration",
+              "name": "SetSpiningSpeed",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "SpiningSpeed",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Delete orbiting objects that are linked to a center object.",
+              "fullName": "Delete orbiting objects that are linked to a center object",
+              "functionType": "Action",
+              "name": "DeleteOrbitingObjects",
+              "sentence": "Delete all _PARAM2_ that are linked to _PARAM0_",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Delete objects",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Delete orbiting objects"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "OrbitingObject",
+                            "Object",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "OrbitingObject",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "longDescription": "Cannot be the same object that was used for the Center object",
+                  "name": "Behavior",
+                  "supplementaryInformation": "OrbitingObjects::OrbitingObjectEmitter",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Orbiting object",
+                  "longDescription": "Cannot be the same object that was used for the Center object",
+                  "name": "OrbitingObject",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "AnimateOrbitingObjects"
+              },
+              {
+                "functionName": "DeleteOrbitingObjects"
+              },
+              {
+                "functionName": "ForegroundSide"
+              },
+              {
+                "folderName": "Orbiting object emitter configuration",
+                "children": [
+                  {
+                    "functionName": "RadiusX"
+                  },
+                  {
+                    "functionName": "SetRadiusX"
+                  },
+                  {
+                    "functionName": "RadiusY"
+                  },
+                  {
+                    "functionName": "SetRadiusY"
+                  },
+                  {
+                    "functionName": "Quantity"
+                  },
+                  {
+                    "functionName": "SetQuantity"
+                  },
+                  {
+                    "functionName": "OrbitAngularSpeed"
+                  },
+                  {
+                    "functionName": "SetOrbitAngularSpeed"
+                  },
+                  {
+                    "functionName": "SpiningSpeed"
+                  },
+                  {
+                    "functionName": "SetSpiningSpeed"
+                  }
+                ]
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "3",
+              "type": "Number",
+              "label": "Quantity of orbiting objects",
+              "name": "Quantity"
+            },
+            {
+              "value": "90",
+              "type": "Number",
+              "unit": "AngularSpeed",
+              "label": "Orbit speed",
+              "description": "Use a negative value to orbit counter-clockwise.",
+              "name": "OrbitAngularSpeed"
+            },
+            {
+              "value": "200",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Orbit radius on Y axis",
+              "description": "Use a negative value to change which part is in front.",
+              "name": "RadiusY"
+            },
+            {
+              "value": "200",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Orbit radius on X axis",
+              "name": "RadiusX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Starting angle offset",
+              "advanced": true,
+              "name": "StartingOffset"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Fill the gap when an object is deleted",
+              "name": "ShouldFillGap"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Z-order offset",
+              "description": "Leave it to zero for an automatic Z-sorting.",
+              "advanced": true,
+              "name": "ZOrderOffset"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "AngularSpeed",
+              "label": "Spining speed",
+              "name": "SpiningSpeed"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Quantity"
+              },
+              {
+                "propertyName": "RadiusX"
+              },
+              {
+                "propertyName": "RadiusY"
+              },
+              {
+                "propertyName": "OrbitAngularSpeed"
+              },
+              {
+                "propertyName": "SpiningSpeed"
+              },
+              {
+                "propertyName": "ShouldFillGap"
+              },
+              {
+                "propertyName": "ZOrderOffset"
+              },
+              {
+                "propertyName": "StartingOffset"
+              }
+            ]
+          }
+        }
+      ],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT"
+  }
+}
